@@ -1,0 +1,77 @@
+<body>
+<style>
+    body {
+      background-color: #2f2a26;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .products-listing {
+        list-style-type: none;
+    }
+    .products-div{
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        margin: 10;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .products-div a {
+        font-size: small;
+    }
+
+    .products-div button{
+        width: 50%;
+    }
+    .products-div img{
+        width: auto;
+        height: 90%;
+    }
+    .products-div img:hover{
+        width: auto;
+        height: 100%;
+    }
+
+    .products-div-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+</style>
+<ul class="products-listing">
+    <li>
+        <div class="products-div">
+            <img src="shoes1.png" data-tilt data-tilt-max="25">
+            <div class="products-div-about">
+            <p>Sample Shoe 1</p>
+            <a>Some Random Description</a><br>
+            <button>Hello</button>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="products-div">
+            <img src="shoes1.png" data-tilt data-tilt-max="25">
+            <div class="products-div-about">
+            <p>Sample Shoe 1</p>
+            <a>Some Random Description</a><br>
+            <button>Hello</button>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="products-div">
+            <img src="shoes1.png" data-tilt data-tilt-max="25">
+            <div class="products-div-about">
+            <p>Sample Shoe 1</p>
+            <a>Some Random Description</a><br>
+            <button>Hello</button>
+            </div>
+        </div>
+    </li>
+    
+</ul>
+<script src="src/scripts/vanilla.js"></script>
+</body>
